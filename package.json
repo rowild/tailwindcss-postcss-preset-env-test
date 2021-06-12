@@ -1,0 +1,23 @@
+{
+  "name": "audiowave",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.2",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^2.1.4",
+    "vite": "^2.3.7"
+  },
+  "dependencies": {
+    "peaks.js": "^0.26.0",
+    "waveform-data": "^4.1.0",
+    "waves-ui": "github:wavesjs/ui",
+    "wavesurfer.js": "^5.0.1",
+    "web-audio-daw": "^4.11.0"
+  }
+}

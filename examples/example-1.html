@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>WavesUI Test App</title>
+</head>
+<body class="bg-teal-500 border rounded m-5">
+	<input type="file" />
+	<br />
+	<svg preserveAspectRatio="none" width="2000" height="100" style="width:900px;height:50px;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<linearGradient id="Gradient" x1="0" x2="0" y1="0" y2="1">
+			<stop offset="0%" stop-color="white" />
+			<stop offset="90%" stop-color="white" stop-opacity="0.75" />
+			<stop offset="100%" stop-color="white" stop-opacity="0" />
+		</linearGradient>
+		<mask id="Mask">
+			<path fill="url(#Gradient)" />
+		</mask>
+		<rect id="progress" mask="url(#Mask)" x="0" y="0" width="0" height="100" fill="rgb(255, 106, 106)"  />
+		<rect id="remaining" mask="url(#Mask)" x="0" y="0" width="0" height="100" fill="rgb(170, 56, 56)"  />
+	</svg>
+	<script type="module" src="/example-1.js"></script>
+</body>
+</html>

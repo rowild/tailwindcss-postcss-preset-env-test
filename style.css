@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+  @apply relative m-0 p-0 w-full;
+}
+
+#waveform {
+  @apply relative w-full border bg-green-100 mx-0 mb-5;
+
+  & .grid {
+   @apply border-2 border-red-500 p-3;
+  }
+}
+
